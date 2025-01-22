@@ -12,7 +12,7 @@ import java.util.List;
 @Service
 public class FlightServiceImpl implements FlightService {
 
-    private final String datastoreBaseUrl = "http://3.236.19.94:8081"; // Adjust based on taf-datastore-service URL
+    private final String datastoreBaseUrl = "http://3.86.195.31:8081"; // Adjust based on taf-datastore-service URL
 
     @Autowired
     private RestTemplate restTemplate;
